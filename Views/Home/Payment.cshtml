@@ -1,0 +1,76 @@
+﻿@model RuRuServer.Models.DataModel
+@{
+    ViewData["Title"] = "Газпромбанк CPAReq";
+}
+
+<div class="text-center mb-2">
+    <h1 class="display-6">1. CheckPaymentAvailRequest (CPAReq) </h1>
+</div>
+
+<form asp-action="Payment" method="post">
+    <div class="row">
+
+        <div class="col-12">
+
+            <ul class="list-group">
+
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">MerchantId</div>
+                        @Model.InitModel.MerchantId
+                        <input id="MerchantId" asp-for="InitModel.MerchantId" type="hidden" value="@Model.InitModel.MerchantId" />
+                    </div>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto text-break">
+                        <div class="fw-bold">InvoiceId</div>
+                        @Model.InitModel.InvoiceId
+                        <input id="InvoiceId" asp-for="InitModel.InvoiceId" type="hidden" value="@Model.InitModel.InvoiceId" />
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Success Url</div>
+                        @Model.InitModel.SuccessUrl
+                        <input id="SuccessUrl" asp-for="InitModel.SuccessUrl" type="hidden" value="@Model.InitModel.SuccessUrl" />
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto text-break">
+                        <div class="fw-bold">Failure Url</div>
+                        @Model.InitModel.FailureUrl
+                        <input id="FailureUrl" asp-for="InitModel.FailureUrl" type="hidden" value="@Model.InitModel.FailureUrl" />
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">LangCode</div>
+                        @Model.InitModel.LangCode
+                        <input id="LangCode" asp-for="InitModel.LangCode" type="hidden" value="@Model.InitModel.LangCode" />
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto text-break">
+                        <div class="fw-bold">Callback Url</div>
+                        @Model.Url
+                        <input id="Url" asp-for="Url" type="hidden" value="@Model.Url" />
+                    </div>
+                </li>
+            </ul>
+            <input id="TransactionId" asp-for="InitModel.TransactionId" type="hidden" value="@Model.InitModel.TransactionId" />
+            <input id="PaymentId" asp-for="InitModel.PaymentId" type="hidden" value="@Model.InitModel.PaymentId" />
+            <input id="Amount" asp-for="InitModel.Amount" type="hidden" value="@Model.InitModel.Amount" />
+            <button class="my-2 btn btn-dark" type="submit">Proceed CPAReq</button>
+        </div>
+    </div>
+</form>
+
+<div class="my-3">
+    <label for="Output" class="form-label">Response:</label>
+    <textarea name="@Model.Output" type="text" class="form-control" rows="5">@Model.Output</textarea>
+
+    <div class="my-1">
+        <a asp-controller="Home" asp-action="Checkout" asp-route-merch_id="@Model.InitModel.MerchantId" asp-route-o.order_id="@Model.InitModel.InvoiceId" asp-route-trx_id="@Model.InitModel.TransactionId" asp-route-merchant_trx="@Model.InitModel.PaymentId" asp-route-amount="@Model.InitModel.Amount" class="btn btn-danger">Checkout</a>
+    </div>
+</div>
