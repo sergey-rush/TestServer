@@ -1,4 +1,4 @@
-﻿namespace RuRuServer.Base;
+﻿namespace TestServer.Base;
 
 public static class AppConstants
 {

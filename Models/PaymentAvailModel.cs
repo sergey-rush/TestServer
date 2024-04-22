@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace RuRuServer.Models;
+namespace TestServer.Models;
 
 /// <summary>
 /// CheckPaymentAvailRequest (CPAReq) PGA с магазином производится проверка возможности проведения платежа

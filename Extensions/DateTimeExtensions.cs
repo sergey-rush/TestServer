@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace RuRuServer.Extensions;
+namespace TestServer.Extensions;
 
 public static class DateTimeExtensions
 {

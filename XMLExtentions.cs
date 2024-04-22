@@ -1,7 +1,7 @@
 ﻿using System.Xml;
 using System.Xml.Serialization;
 
-namespace RuRuServer;
+namespace TestServer;
 public static class XMLExtensions
 {
     public static string ToXML<T>(this T value)

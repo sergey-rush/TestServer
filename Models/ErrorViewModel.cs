@@ -1,4 +1,4 @@
-namespace RuRuServer.Models
+namespace TestServer.Models
 {
     public class ErrorViewModel
     {

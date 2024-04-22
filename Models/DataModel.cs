@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using RuRuServer.Base;
+using TestServer.Base;
 
-namespace RuRuServer.Models
+namespace TestServer.Models
 {
     public class DataModel
     {

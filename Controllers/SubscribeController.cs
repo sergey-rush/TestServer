@@ -1,9 +1,9 @@
 ﻿using System.Net;
 using Microsoft.AspNetCore.Mvc;
-using RuRuServer.Base;
-using RuRuServer.Models;
+using TestServer.Base;
+using TestServer.Models;
 
-namespace RuRuServer.Controllers
+namespace TestServer.Controllers
 {
     //[Route("Subscribe")]
     [ApiController]

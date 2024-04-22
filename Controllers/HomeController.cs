@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
-using RuRuServer.Extensions;
-using RuRuServer.Models;
+using TestServer.Extensions;
+using TestServer.Models;
 using System.Diagnostics;
 
-namespace RuRuServer.Controllers
+namespace TestServer.Controllers
 {
     public class HomeController : Controller
     {

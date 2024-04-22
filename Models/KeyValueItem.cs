@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.ComponentModel.DataAnnotations;
 
-namespace RuRuServer.Models
+namespace TestServer.Models
 {
     /// <summary>
     /// Пара (ключ, значение)

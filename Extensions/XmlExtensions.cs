@@ -1,7 +1,7 @@
 ﻿using System.Xml.Serialization;
 using System.Xml;
 
-namespace RuRuServer.Extensions;
+namespace TestServer.Extensions;
 
 public static class XmlExtensions
 {

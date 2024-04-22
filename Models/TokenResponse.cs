@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace RuRuServer.Models
+namespace TestServer.Models
 {
     /// <summary>
     /// Маркер доступа и обновления

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace RuRuServer.Base;
+namespace TestServer.Base;
 public static class StateList
 {
     private static List<SelectListItem> items = new List<SelectListItem>();

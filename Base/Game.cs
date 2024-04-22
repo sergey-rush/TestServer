@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace RuRuServer.Base;
+namespace TestServer.Base;
 
 public class Game
 {

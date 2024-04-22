@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Xml.Schema;
 using System.Xml.Serialization;
 
-namespace RuRuServer.Models;
+namespace TestServer.Models;
 
 [Serializable]
 [XmlType(AnonymousType = true)]

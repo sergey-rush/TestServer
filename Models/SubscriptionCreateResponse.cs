@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
-namespace RuRuServer.Models
+namespace TestServer.Models
 {
     /// <summary>
     /// Ответ с информацией о созданной подписке

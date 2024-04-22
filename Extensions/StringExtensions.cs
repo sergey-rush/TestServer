@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RuRuServer.Extensions;
+namespace TestServer.Extensions;
 
 public static class StringExtensions
 {

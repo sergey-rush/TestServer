@@ -1,10 +1,10 @@
 ﻿using Newtonsoft.Json;
-using RuRuServer.Base;
-using RuRuServer.Models;
+using TestServer.Base;
+using TestServer.Models;
 using System.Net;
 using System.Net.Cache;
 
-namespace RuRuServer;
+namespace TestServer;
 
 public class WebClient
 {

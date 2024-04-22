@@ -1,4 +1,4 @@
-﻿namespace RuRuServer.Base;
+﻿namespace TestServer.Base;
 
 /// <summary>
 /// Причина изменения состояния подписки:

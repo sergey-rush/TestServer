@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RuRuServer.Extensions;
-using RuRuServer.Models;
+using TestServer.Extensions;
+using TestServer.Models;
 
-namespace RuRuServer.Controllers;
+namespace TestServer.Controllers;
 
 [Route("v2/game")]
 [ApiController]
@@ -33,7 +33,7 @@ public class GameController : ControllerBase
         _logger.LogInformation("GameController: token requested");
         TokenResponse token = new TokenResponse
         {
-            Token = tokenLength.RandomString(),
+            AccessToken = tokenLength.RandomString(),
             ExpiresIn = 1800
         };
         return token;
@@ -47,7 +47,7 @@ public class GameController : ControllerBase
         Console.WriteLine("GameController: token requested");
         TokenResponse token = new TokenResponse
         {
-            Token = tokenLength.RandomString(),
+            AccessToken = tokenLength.RandomString(),
             ExpiresIn = 1800
         };
         return token;

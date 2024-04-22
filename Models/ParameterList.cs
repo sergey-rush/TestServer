@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace RuRuServer.Models
+namespace TestServer.Models
 {
     [Serializable]
     [XmlRoot(ElementName = "ArrayOfParameter", Namespace = "", IsNullable = true)]

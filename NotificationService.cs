@@ -1,12 +1,12 @@
 ﻿using Newtonsoft.Json;
-using RuRuServer.Base;
-using RuRuServer.Models;
+using TestServer.Base;
+using TestServer.Models;
 using System.Reflection;
 using System.Security.Cryptography.Xml;
 using System.Text;
 using System.Transactions;
 
-namespace RuRuServer
+namespace TestServer
 {
     public class NotificationService
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RuRuServer.Models;
+using TestServer.Models;
 
-namespace RuRuServer.Controllers;
+namespace TestServer.Controllers;
 
 
 [ApiController]

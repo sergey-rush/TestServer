@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
-using RuRuServer.Extensions;
+using TestServer.Extensions;
 
-namespace RuRuServer.Models;
+namespace TestServer.Models;
 
 /// <summary>
 /// Для регистрации результата платежа PGA отправляет в магазин GET запрос RegisterPaymentRequest (RPReq)

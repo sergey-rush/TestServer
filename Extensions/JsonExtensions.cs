@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace RuRuServer.Extensions;
+namespace TestServer.Extensions;
 
 public static class JsonExtensions
 {

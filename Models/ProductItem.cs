@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
-using RuRuServer.Base;
+using TestServer.Base;
 
-namespace RuRuServer.Models;
+namespace TestServer.Models;
 
 public class ProductItem
 {

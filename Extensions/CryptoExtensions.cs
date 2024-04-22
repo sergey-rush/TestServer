@@ -3,7 +3,7 @@ using System.Security.Cryptography;
 using System.Text;
 using Microsoft.AspNetCore.Authentication;
 
-namespace RuRuServer.Extensions;
+namespace TestServer.Extensions;
 
 public static class CryptoExtensions
 {
